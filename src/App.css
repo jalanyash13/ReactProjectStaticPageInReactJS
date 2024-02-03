@@ -1,0 +1,159 @@
+/* .container {
+    display: grid;
+    grid-template-rows: 30% 60% 10%; /* Define column widths */
+    /* width:100%; */
+    /* height: 100%; Full viewport height */
+    /* color: white; */
+  /* } */ 
+
+  .container {
+    color: white;
+    display: grid;
+    grid-template-rows: 27% 58% 15%;
+    width: 400%; /* Set width of the container */
+    max-width: 1150px; /* Optional: Set maximum width of the container */
+    height: 100vh;
+    margin: 0 auto; /* Center the container horizontally */
+    position: absolute; /* Set position to absolute */
+    top: 50%; /* Align the container vertically */
+    left: 50%; /* Align the container horizontally */
+    transform: translate(-50%, -50%); /* Move the container back by 50% of its width and height */
+  }
+
+  body {
+    background-color: #1E2628; /* Change the background color of the page */
+  }
+  
+    .area {
+        /* background-color: #1E2628; */
+        background: linear-gradient(to bottom right, rgba(185, 120, 120, 0), rgba(96, 96, 176, 0));
+        font-family: Arial, sans-serif;
+        font-weight: normal;
+  
+    } 
+  
+  #top {
+    background-color: #1E2628;
+    
+  }
+  
+  #middle {
+    /* display: grid; */
+    background-color: #1E2628;
+    grid-template-rows: 35% 65%;
+  }
+  
+  .bottom-middle {
+    display: grid;
+    background-color: #1E2628;
+    grid-template-columns: 10% 90%;
+  }
+  .right-bottomMiddle {
+    display: grid;
+    padding-left: 100px; /* Add padding to create space between left and right columns */
+    grid-template-rows: 50% 50%;
+  }
+  .bottomRight-bottomMiddle{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .rightBottomRight-bottomMiddle {
+    border-left: 1px solid white;
+    padding-left: 20px;
+    /* padding-top: 1px; */
+    }
+    /* .leftBottomRight-bottomMiddle {
+        padding-top: 1px;
+        } */
+  .main-menu {
+    font-weight: bold;
+    margin-bottom: 7px; /* Add margin to create space between Main Menu and block */
+  }
+  /* .difFont {
+    margin-bottom: 7px; /* Add margin to create space between Main Menu and block */
+  /* } */ 
+
+  .block3 {
+    font-weight: bold;
+     }
+  .block2 {
+    padding: 1px;
+    background-color: #1c2425;
+  }
+  .block4 {
+    width: 20%;
+    padding: 1px;
+    background-color: white;
+    color: black;
+  }
+  #bottom{
+    background-color: #1E2628;
+  }
+  
+  .centered-text{
+    text-align: center;
+  }
+
+  .block {
+    height: 10%; /* Set height to 10% of the second area */
+    background-color: rgb(34, 32, 32); /* Example color for the block */
+    /* text-align: center; */
+    /* display: flex; */
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .block a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+  }  
+
+  .black-background {
+    background-color: black;
+    color:white;
+  }
+
+  .area#top {
+    position:relative;
+  }
+
+  .area#top .image-container{
+    background-image: url(./images/betterGrid.jpg);
+    background-size:cover;
+    background-position:center;
+    width:100%;
+    height:100%;
+    /* position:relative; */
+  }
+
+  .area#top .overlay-container {
+    position: absolute; /* Position the overlay container absolutely */
+    top: 0; /* Position from the top edge of the parent container */
+    right: 0; /* Position from the left edge of the parent container */
+    width: 50%; /* Set the width of the overlay container to match the parent container */
+    height: 100%; /* Set the height of the overlay container to match the parent container */
+    background-image: url('./images/globe.png'); /* Set the background image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    float: right;
+  }
+
+  .area#top .text-on-image {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 20%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+  }
+
+  .area#top .titleTop{
+    line-height:1;
+  }
+  .area#top .sloganTop{
+    line-height:1;
+  }
+  
